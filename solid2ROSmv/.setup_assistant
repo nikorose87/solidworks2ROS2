@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: solid2ROS
+    relative_path: urdf/robot_arm_urdf.urdf
+  srdf:
+    relative_path: config/solid2ROS.srdf
+  package_settings:
+    author_name: nikorose
+    author_email: enprietop@gmail.com
+    generated_timestamp: 1717370643
