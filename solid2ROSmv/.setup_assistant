@@ -7,4 +7,19 @@ moveit_setup_assistant_config:
   package_settings:
     author_name: nikorose
     author_email: enprietop@gmail.com
-    generated_timestamp: 1717370643
+    generated_timestamp: 1717625550
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

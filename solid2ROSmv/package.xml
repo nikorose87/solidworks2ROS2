@@ -11,8 +11,8 @@
   <license>BSD-3-Clause</license>
 
   <url type="website">http://moveit.ros.org/</url>
-  <url type="bugtracker">https://github.com/ros-planning/moveit2/issues</url>
-  <url type="repository">https://github.com/ros-planning/moveit2</url>
+  <url type="bugtracker">https://github.com/moveit/moveit2/issues</url>
+  <url type="repository">https://github.com/moveit/moveit2</url>
 
   <author email="enprietop@gmail.com">nikorose</author>
 
@@ -34,7 +34,6 @@
   <exec_depend>moveit_configs_utils</exec_depend>
   <exec_depend>moveit_ros_move_group</exec_depend>
   <exec_depend>moveit_ros_visualization</exec_depend>
-  <exec_depend>moveit_ros_perception</exec_depend>
   <exec_depend>moveit_ros_warehouse</exec_depend>
   <exec_depend>moveit_setup_assistant</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
@@ -44,6 +43,7 @@
   <exec_depend>solid2ROS</exec_depend>
   <exec_depend>tf2_ros</exec_depend>
   <exec_depend>warehouse_ros_mongo</exec_depend>
+  <exec_depend>xacro</exec_depend>
 
 
   <export>
